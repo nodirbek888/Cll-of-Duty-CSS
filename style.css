@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    animation: anime 15s  infinite alternate-reverse;
+}
+@keyframes anime {
+    0%{
+        background-image: url(./bac.jpg);
+    }
+    25%{
+        background-image: url('./img/rasm2.jpg');
+    }
+    50%{
+        background-image: url('./img/11025629.jpg');
+    }
+    75%{
+        background-image: url('./img/rasm3.jpg');
+    }
+    100%{
+        background-image: url('./img/rasm1.jpg');
+    }          
+}
+.box1{
+    position: absolute;
+    top:1px;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg,rgb(0, 0, 0),rgba(255, 255, 255, 0),rgb(0, 0, 0));
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    transition-duration: 0.5s;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.157);
+    background:linear-gradient(120deg, rgba(0, 0, 0, 0.281),rgba(58, 53, 53, 0.274),rgba(0, 0, 0, 0.589));
+
+}
+nav:hover{
+    width: 100%;
+    /* background: none; */
+}
+img{
+    width: 200px;
+    margin-left: 10px;
+}
+.span1{
+    font-family:sans-serif ;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+.input1{
+    outline: none;
+    border: none;
+    background: none;
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid rgba(151, 150, 150, 0.383);
+    color: white;
+}
+.span1:hover{
+   text-shadow: 0px 0px 10px rgb(40, 241, 255);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 110px;
+    left: 5px;
+    background:linear-gradient(120deg, rgba(0, 0, 0, 0.061),rgba(58, 53, 53, 0.274),rgba(0, 0, 0, 0.589));
+    border-radius: 10px;
+    border: 1px solid rgba(151, 150, 150, 0.383);
+    width: 300px;
+    height: 40px;
+    transition-duration: 0.5s;
+    opacity: 0;
+}
+main:hover{
+    height: 80vh;
+    opacity: 1;
+    width: 310px;
+}
+.span2{
+    font-size: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.246);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.span2:hover{
+    background-color:rgba(0, 0, 0, 0.781) ;
+    margin-left: 30px;
+}
+.ff{
+    font-weight: 500;
+    color: white;
+    margin-left: 15px;
+    font-family: sans-serif;
+}
+.main2{
+    position: absolute;
+    top: 30%;
+    left: 92%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 300px;
+
+}
+.hh{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+.hy{
+    background-color: white;
+    height: 50px;
+    width: 1px;
+}   
+.he{
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+}
+.main3{
+    position: absolute;
+    background:linear-gradient(120deg, rgba(0, 0, 0, 0.719),rgba(58, 53, 53, 0.274),rgba(0, 0, 0, 0.767));
+    top: 110px;
+    left: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 820px;
+    height: 40px;
+}
+.button1{
+    cursor: pointer;
+    width: 220px;
+    height: 40px;
+    border: none;
+    background: none;
+    color: white;
+    font-family: sans-serif;
+    border: 1px solid rgba(151, 150, 150, 0.555);
+    transition: 0.5s;
+}
+.button1:hover{
+    background-color: rgba(0, 0, 0, 0.424);
+}
+/* main4 */
+.main4{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 150px;
+    left: 348px;
+    background:linear-gradient(120deg, rgba(0, 0, 0, 0.719),rgba(58, 53, 53, 0.274),rgba(0, 0, 0, 0.767));
+    border-radius: 10px;
+    border: 1px solid rgba(151, 150, 150, 0.383);
+    width: 170px;
+    height: 40px;
+    transition-duration: 0.5s;
+    opacity: 0;
+}
+.main4:hover{
+    height: 70vh;
+    opacity: 1;
+    width: 170px;
+}
+.kii{
+    width: 100px;
+    position: relative;
+    left: 20px;
+}
+/* main5 */
+.main5{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 150px;
+    left: 510px;
+    background:linear-gradient(120deg, rgba(0, 0, 0, 0.719),rgba(58, 53, 53, 0.274),rgba(0, 0, 0, 0.767));
+    border-radius: 10px;
+    border: 1px solid rgba(151, 150, 150, 0.383);
+    width: 170px;
+    height: 40px;
+    transition-duration: 0.5s;
+    opacity: 0;
+}
+.main5:hover{
+    height: 70vh;
+    opacity: 1;
+    width: 170px;
+}
+.kkk{
+    width: 100px;
+    position: relative;
+    left: 30px;
+}
+/* main6 */
+.main6{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 150px;
+    left: 675px;
+    background:linear-gradient(120deg, rgba(0, 0, 0, 0.719),rgba(58, 53, 53, 0.274),rgba(0, 0, 0, 0.767));
+    border-radius: 10px;
+    border: 1px solid rgba(151, 150, 150, 0.383);
+    width: 170px;
+    height: 40px;
+    transition-duration: 0.5s;
+    opacity: 0;
+}
+.main6:hover{
+    height: 70vh;
+    opacity: 1;
+    width: 170px;
+}
+.kii{
+    width: 100px;
+    position: relative;
+    left: 20px;
+}
+/* main7 */
+.main7{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 150px;
+    left: 840px;
+    background:linear-gradient(120deg, rgba(0, 0, 0, 0.719),rgba(58, 53, 53, 0.274),rgba(0, 0, 0, 0.767));
+    border-radius: 10px;
+    border: 1px solid rgba(151, 150, 150, 0.383);
+    width: 170px;
+    height: 40px;
+    transition-duration: 0.5s;
+    opacity: 0;
+}
+.main7:hover{
+    height: 70vh;
+    opacity: 1;
+    width: 170px;
+}
+.kkk{
+    width: 100px;
+    position: relative;
+    left: 30px;
+}
+/* main8 */
+.main8{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 150px;
+    left: 1003px;
+    background:linear-gradient(120deg, rgba(0, 0, 0, 0.719),rgba(58, 53, 53, 0.274),rgba(0, 0, 0, 0.767));
+    border-radius: 10px;
+    border: 1px solid rgba(151, 150, 150, 0.383);
+    width: 170px;
+    height: 40px;
+    transition-duration: 0.5s;
+    opacity: 0;
+}
+.main8:hover{
+    height: 70vh;
+    opacity: 1;
+    width: 170px;
+}
+.kkk{
+    width: 100px;
+    position: relative;
+    left: 30px;
+}
+.oudio{
+    position: absolute;
+    top: 570px;
+    left: 300px;
+    opacity: 0;
+}
